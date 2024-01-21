@@ -1,0 +1,7 @@
+openai
+llama-index
+langchain
+uvicorn
+fastapi
+pymongo
+faiss-cpu
