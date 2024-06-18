@@ -9,7 +9,7 @@
 
 # app = FastAPI()
 
-# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = ""
 
 # # Enable CORS for all domains (adjust as needed)
 # app.add_middleware(
