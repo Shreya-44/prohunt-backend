@@ -21,7 +21,7 @@
 # )
 
 # # Connect to MongoDB
-# client = MongoClient("mongodb+srv://shreyakhanna2k4:12345@cluster0.vq9fjgv.mongodb.net/?retryWrites=true&w=majority")
+# client = MongoClient("mongodb+srv://"username:password"@cluster0.vq9fjgv.mongodb.net/?retryWrites=true&w=majority")
 # db = client["prohunt"]
 # collection = db["projects"]
 
@@ -93,7 +93,7 @@ app.add_middleware(
 
 # Connect to MongoDB
 client = MongoClient(
-    "mongodb+srv://shreyakhanna2k4:12345@cluster0.vq9fjgv.mongodb.net/?retryWrites=true&w=majority")
+    "mongodb+srv://"username:password"@cluster0.vq9fjgv.mongodb.net/?retryWrites=true&w=majority")
 db = client.prohunt
 collection = db.projects
 
